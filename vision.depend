@@ -1,0 +1,257 @@
+# depslib dependency file v1.0
+1461433297 source:/home/danie/TCC III/Testes/vision/main.cpp
+	<iostream>
+	<stdio.h>
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	"include/inputModel.h"
+
+1462757888 source:/home/danie/TCC III/Testes/vision/src/imgDetectFunctions.cpp
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"imgDetectFunctions.h"
+	<iostream>
+	<stdio.h>
+	"cvaux.h"
+	<string>
+	"cv.h"
+
+1462755436 /home/danie/TCC III/Testes/vision/include/imgDetectFunctions.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1450450936 /home/danie/opencv-3.1.0/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/photo/photo_c.h"
+	"opencv2/video/tracking_c.h"
+	"opencv2/objdetect/objdetect_c.h"
+
+1450450936 /home/danie/opencv-3.1.0/include/opencv/cvaux.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/photo/photo_c.h"
+	"opencv2/video/tracking_c.h"
+	"opencv2/objdetect/objdetect_c.h"
+
+1450450936 /home/danie/opencv-3.1.0/include/opencv2/opencv.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/video.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/ml.hpp"
+
+1462752763 /home/danie/TCC III/Testes/vision/include/inputModel.h
+	"opencv2/highgui/highgui.hpp"
+	<string>
+
+1462912681 source:/home/danie/TCC III/Testes/vision/src/inputModel.cpp
+	"inputModel.h"
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	<stdio.h>
+	<sstream>
+	<fstream>
+	<string>
+
+1462933336 source:/home/pi/Downloads/Vision - ViolaJones/vision/main.cpp
+	<iostream>
+	<stdio.h>
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	"include/inputModel.h"
+
+1462933337 /home/pi/Downloads/Vision - ViolaJones/vision/include/imgDetectFunctions.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1450450936 /home/pi/opencv-3.1.0/include/opencv2/opencv.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/video.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/ml.hpp"
+
+1462982975 /home/pi/Downloads/Vision - ViolaJones/vision/include/inputModel.h
+	"opencv2/highgui/highgui.hpp"
+	<string>
+
+1463866898 source:/home/pi/Downloads/Vision - ViolaJones/vision/src/imgDetectFunctions.cpp
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"imgDetectFunctions.h"
+	<iostream>
+	<stdio.h>
+	"cvaux.h"
+	<string>
+	"cv.h"
+
+1450450936 /home/pi/opencv-3.1.0/include/opencv/cvaux.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/photo/photo_c.h"
+	"opencv2/video/tracking_c.h"
+	"opencv2/objdetect/objdetect_c.h"
+
+1450450936 /home/pi/opencv-3.1.0/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/photo/photo_c.h"
+	"opencv2/video/tracking_c.h"
+	"opencv2/objdetect/objdetect_c.h"
+
+1463865861 source:/home/pi/Downloads/Vision - ViolaJones/vision/src/inputModel.cpp
+	"inputModel.h"
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	<stdio.h>
+	<time.h>
+	<sstream>
+	<fstream>
+	<string>
+
+1463962137 source:/home/pi/Downloads/teste do vitinho/vision/main.cpp
+	<iostream>
+	<stdio.h>
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	"include/inputModel.h"
+
+1463962138 /home/pi/Downloads/teste do vitinho/vision/include/imgDetectFunctions.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1463962138 /home/pi/Downloads/teste do vitinho/vision/include/inputModel.h
+	"opencv2/highgui/highgui.hpp"
+	<string>
+
+1463963344 source:/home/pi/Downloads/teste do vitinho/vision/src/imgDetectFunctions.cpp
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"imgDetectFunctions.h"
+	<iostream>
+	<stdio.h>
+	"cvaux.h"
+	<string>
+	"cv.h"
+
+1463962566 source:/home/pi/Downloads/teste do vitinho/vision/src/inputModel.cpp
+	"inputModel.h"
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	<stdio.h>
+	<time.h>
+	<sstream>
+	<fstream>
+	<string>
+
+1463962137 source:/home/pi/Downloads/vitinho/vision/main.cpp
+	<iostream>
+	<stdio.h>
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	"include/inputModel.h"
+
+1463962138 /home/pi/Downloads/vitinho/vision/include/imgDetectFunctions.h
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1463962138 /home/pi/Downloads/vitinho/vision/include/inputModel.h
+	"opencv2/highgui/highgui.hpp"
+	<string>
+
+1464134631 source:/home/pi/Downloads/vitinho/vision/src/imgDetectFunctions.cpp
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"imgDetectFunctions.h"
+	<iostream>
+	<stdio.h>
+	"cvaux.h"
+	<string>
+	"cv.h"
+
+1464475237 source:/home/pi/Downloads/vitinho/vision/src/inputModel.cpp
+	"inputModel.h"
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	<stdio.h>
+	<time.h>
+	<sstream>
+	<fstream>
+	<string>
+
+1465169051 source:/home/danie/Documents/vision/main.cpp
+	<iostream>
+	<stdio.h>
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	"include/inputModel.h"
+
+1464831602 /home/danie/Documents/vision/include/imgDetectFunctions.h
+	"imgLearning.h"
+	"inputModel.h"
+	"opencv2/opencv.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/features2d/features2d.hpp"
+	<string>
+
+1464830961 /home/danie/Documents/vision/include/inputModel.h
+	"opencv2/highgui/highgui.hpp"
+	<string>
+
+1465169437 source:/home/danie/Documents/vision/src/imgDetectFunctions.cpp
+	"imgDetectFunctions.h"
+	"opencv/cv.h"
+	"opencv/cvaux.h"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<stdio.h>
+	<string>
+	<iostream>
+
+1465169467 source:/home/danie/Documents/vision/src/inputModel.cpp
+	"inputModel.h"
+	"opencv2/highgui/highgui.hpp"
+	"imgDetectFunctions.h"
+	<stdio.h>
+	<time.h>
+	<sstream>
+	<fstream>
+	<string>
+	<iostream>
+	<fstream>
+
+1464831421 /home/danie/Documents/vision/include/imgLearning.h
+
+1465071418 source:/home/danie/Documents/vision/src/imgLearning.cpp
+	"imgLearning.h"
+	"opencv/cvaux.h"
+	"opencv/ml.h"
+	"opencv/cv.h"
+	<iostream>
+

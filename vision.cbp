@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vision" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/vision" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/vision" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-s" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`opencv-config --cxxflags`" />
+			<Add directory="../../../opencv-3.1.0/include" />
+			<Add directory="../../../opencv-3.1.0/include/opencv" />
+			<Add directory="../../../opencv-3.1.0/include/opencv2" />
+		</Compiler>
+		<Linker>
+			<Add option="`opencv-config --ldstaticflags`" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_calib3d.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_core.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_features2d.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_flann.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_highgui.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_imgcodecs.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_imgproc.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_ml.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_objdetect.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_photo.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_shape.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_stitching.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_superres.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_video.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_videoio.so" />
+			<Add library="/home/danie/opencv-3.1.0/build/lib/libopencv_videostab.so" />
+			<Add directory="../../../opencv-3.1.0/build/lib" />
+		</Linker>
+		<Unit filename="include/imgDetectFunctions.h" />
+		<Unit filename="include/imgLearning.h" />
+		<Unit filename="include/inputModel.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/imgDetectFunctions.cpp" />
+		<Unit filename="src/imgLearning.cpp" />
+		<Unit filename="src/inputModel.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
